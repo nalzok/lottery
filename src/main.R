@@ -1,6 +1,6 @@
 #### read data ####
 
-setwd('/Users/nalzok/Projects/R/Playground')
+setwd('/Users/nalzok/Projects/R/Playground/data')
 data <- read.table('data.txt')
 x <- sort(data$V1)
 
