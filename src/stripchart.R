@@ -12,8 +12,8 @@ urx.len <- length(urx)
 m <- rep(c(1, -1),
          times      = 1 + urx.len/2,
          length.out = urx.len)
-text(x      = urx + m*2,
-     y      = 1 + m*0.1,
+text(x      = urx + m*1.5,
+     y      = 1 + m*0.075,
      labels = urx,
      col    = 'blue',
      cex    = 0.8)
