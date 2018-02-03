@@ -25,5 +25,5 @@ if (is.na(wnr)) {
 
 #### data visualization ####
 
-source('hist.R')
-source('stripchart.R')
+# source('hist.R')
+# source('stripchart.R')
