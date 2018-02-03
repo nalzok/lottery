@@ -1,7 +1,7 @@
 #### read data ####
 
-setwd('/Users/nalzok/Projects/R/Playground/data')
-data <- read.table('data.txt')
+setwd('/Users/nalzok/Projects/R/Playground')
+data <- read.table('data/data.txt')
 x <- sort(data$V1)
 
 
@@ -25,5 +25,5 @@ if (is.na(wnr)) {
 
 #### data visualization ####
 
-# source('hist.R')
-# source('stripchart.R')
+# source('src/hist.R')
+# source('src/stripchart.R')
